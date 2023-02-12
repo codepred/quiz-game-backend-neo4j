@@ -1,0 +1,25 @@
+{
+  "name": "neomovies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "ejs": "^2.4.2",
+    "express": "*",
+    "jsonschema": "^1.2.6",
+    "morgan": "*",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.3.7",
+    "neo4j-driver": "*",
+    "nodemon": "^2.0.20"
+  }
+}

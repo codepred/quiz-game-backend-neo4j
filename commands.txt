@@ -1,0 +1,7 @@
+// KRYPTO 
+npm install crypto --save
+npm install crypto-js
+
+Delete database:
+match (a) -[r] -> () delete a, r
+match (a) delete a

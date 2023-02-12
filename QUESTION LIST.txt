@@ -1,0 +1,67 @@
+    // TYPES
+    // 1 OPD - ONECHOICE
+    // WIELE ODP - MULTIPLECHOICE
+    // True/false - BOOL
+    // Text answer- TEXT
+    // List - LIST
+    // Wypełnienie - COMPLEMENT
+    // Sortowanie - SORT
+
+1. Sortowanie
+{
+    "question" : "Sort numbers from list [5,4,1,3,2]",
+    "type" :  "SORT",
+    "answerArray" :  [2,1,3,4,5],
+    "correctAnswerArray" :  [1,2,3,4,5]
+    "wasAnswered" : "false"
+}
+2.  Wypełnienie
+{
+    "question" : "Finish sentence. Warsaw is Capital of Pol",
+    "type" :  "COMPLEMENT",
+    "answerArray" :  [],
+    "correctAnswerArray" :  ["AND"],
+    "wasAnswered" : "false"
+}
+3. list
+{
+    "question" : "What is biggest country in the world?",
+    "type" :  "LIST",
+    "answerArray" :  ["RUSSIA","USA","CHINA"],
+    "correctAnswerArray" :  ["RUSSIA"],
+    "wasAnswered" : "false"
+}
+4. Text
+{
+    "question" : "Are you happy?",
+    "type" :  "TEXT",
+    "answerArray" :  [],
+    "correctAnswerArray" :  ["YES"],
+    "wasAnswered" : "false"
+}
+5. True/false
+{
+    "question" : "Is Poland in UE?",
+    "type" :  "BOOL",
+    "answerArray" :  ["TRUE","FALSE"],
+    "correctAnswerArray" :  ["TRUE"],
+    "wasAnswered" : "false"
+}
+6. ONECHOICE
+{
+    "question" : "Which color is the best?",
+    "type" :  "ONECHOICE",
+    "answerArray" :  ["White","Black","Yellow"],
+    "correctAnswerArray" :  ["White"],
+    "wasAnswered" : "false"
+}
+7. MULTIPLECHOICE
+{
+    "question" : "Chose odd numbers",
+    "type" :  "MULTIPLECHOICE",
+    "answerArray" :  [1,2,3,4,5,6],
+    "correctAnswerArray" :  [2,4,6],
+    "wasAnswered" : "false"
+}
+
+

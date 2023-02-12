@@ -1,0 +1,47 @@
+<h3>Questions</h3>
+<form method="post" action="/question/add">
+    <label>Question</label>
+    <input type="text" name="title"/>
+    <br>
+    <label>Year</label>
+    <input type="text" name="year"/>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+<h3>Answers</h3>
+<form method="post" action="/answer/add">
+    <label>Answer</label>
+    <input type="text" name="name"/>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+
+<h3>Add answer to question</h3>
+<form method="post" action="/question/answer/add">
+    <label>Question Name</label>
+    <input type="text" name="title"/>
+    <br>
+    <label>Answer Name</label>
+    <input type="text" name="name"/>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+
+<h1>Movies</h1>
+<ul>
+<% movies.forEach(function(movie){ %>
+
+    <li><%= movie.title  %></li>
+<% }) %>
+</ul>
+
+<h1>Actors</h1>
+<ul>
+<% actors.forEach(function(actor){ %>
+
+    <li><%= actor.name  %></li>
+<% }) %>
+</ul>
